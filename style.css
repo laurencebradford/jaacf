@@ -9,6 +9,7 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  jaacf-theme-text-domain
 */
 @charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -7498,12 +7499,40 @@ body {
 p {
   font-size: 1.2em; }
 
-.navbar-default {
-  background-color: #662359;
-  background-color: rgba(107, 37, 94, 0.95);
-  padding: 5px 0px; }
-  .navbar-default .navbar-nav li a {
-    color: white; }
+.slab {
+  font-family: 'Bree Serif', Helvetica, Arial, sans-serif; }
+
+.navbar {
+  margin-bottom: 0; }
 
 .img-border {
   border: 4px solid #555555; }
+
+#homepage .cta--homepage {
+  background-color: #A3238E;
+  color: white;
+  text-align: center;
+  padding: 150px 0; }
+  #homepage .cta--homepage h1 {
+    font-size: 72px;
+    text-shadow: -4px 3px 0 #A3238E, -12px 7px 0 rgba(0, 0, 0, 0.2); }
+  #homepage .cta--homepage .sub-header {
+    font-size: 1.4em; }
+
+#homepage .split-card--homepage {
+  padding: 50px 25px;
+  background: #F59C27;
+  color: rgba(255, 255, 255, 0.8); }
+  #homepage .split-card--homepage .item--split-card {
+    width: 50%;
+    float: left; }
+  #homepage .split-card--homepage .text--split-card {
+    padding: 100px;
+    background: #E53935;
+    color: white;
+    font-size: 1.2em; }
+  #homepage .split-card--homepage .image--split-card {
+    background: url("./images/food-homepage.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover; }

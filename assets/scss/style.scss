@@ -2,10 +2,16 @@
 
 
 // -- VENDOR --
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap";
 @import "../../bower_components/font-awesome/scss/font-awesome";
 // -- VENDOR --
 
-
+// -- UTILITY --
 @import './utils/components';  
-@import './utils/globals';  
+@import './utils/globals';
+// -- UTILITY --
+
+// -- PAGES --
+@import './pages/homepage';
+// -- PAGES --

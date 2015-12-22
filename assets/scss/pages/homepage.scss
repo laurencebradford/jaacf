@@ -1,0 +1,42 @@
+#homepage {
+	.cta--homepage {
+		background-color: $purple;
+		color: white;
+		text-align: center;
+		padding: 150px 0;
+		h1 {
+			font-size: 72px;
+			text-shadow: -4px 3px 0 #A3238E, -12px 7px 0 rgba(0,0,0,0.2);
+		}
+		.sub-header {
+			font-size: 1.4em;
+			.step--sub-header {
+				
+			}
+		}
+	}
+	.split-card--homepage {
+		padding: 50px 25px;
+		background: #F59C27;
+		color: rgba(255, 255, 255, 0.8);
+		// width: 100%;
+			// float: left;
+			.item--split-card {
+				width: 50%;
+				float: left;
+			}
+			.text--split-card {
+				padding: 100px;
+				background: #E53935;
+				color: white;
+				font-size: 1.2em;
+		}
+		.image--split-card {
+			background: url("./images/food-homepage.jpg") no-repeat center;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+		}
+
+	}
+} 
