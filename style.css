@@ -7507,3 +7507,10 @@ p {
 
 .img-border {
   border: 4px solid #555555; }
+
+.menu-footer-links-container > ul {
+  list-style: none;
+  padding: 0px; }
+  .menu-footer-links-container > ul > li {
+    display: inline-block;
+    padding-right: 10px; }
